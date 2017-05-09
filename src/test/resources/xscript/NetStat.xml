@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<script>
+	<using xmlTag="sigar" module="com.alogic.xscript.sigar.SigarConf" />
+	<sigar>
+		<sigar-netStat type="netStat" name="eth1"/>
+	</sigar>
+</script>
