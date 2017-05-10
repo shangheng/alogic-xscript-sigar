@@ -21,8 +21,6 @@ import com.anysoft.util.PropertiesConstants;
  */
 public class HostCPU extends SigarOperation {
 
-//	protected String type = null;
-
 	public HostCPU(String tag, Logiclet p) {
 		super(tag, p);
 	}

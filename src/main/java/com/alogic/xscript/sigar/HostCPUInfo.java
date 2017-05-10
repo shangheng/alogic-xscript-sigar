@@ -20,8 +20,6 @@ import com.anysoft.util.PropertiesConstants;
  */
 public class HostCPUInfo extends SigarOperation {
 
-//	protected String type = null;
-	
 	public HostCPUInfo(String tag, Logiclet p) {
 		super(tag, p);
 	}
