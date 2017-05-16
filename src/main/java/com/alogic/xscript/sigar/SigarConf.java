@@ -1,11 +1,9 @@
 package com.alogic.xscript.sigar;
 
-import java.util.Map;
-
-
 import com.alogic.xscript.ExecuteWatcher;
 import com.alogic.xscript.Logiclet;
 import com.alogic.xscript.LogicletContext;
+import com.alogic.xscript.doc.XsObject;
 import com.alogic.xscript.plugins.Segment;
 import com.alogic.xscript.sigar.util.HostTools;
 
@@ -27,8 +25,8 @@ public class SigarConf extends Segment{
 	}
 	
 	@Override
-	protected void onExecute(Map<String, Object> root, 
-			Map<String, Object> current, LogicletContext ctx, ExecuteWatcher watcher) {
+	protected void onExecute(XsObject root, 
+			XsObject current, LogicletContext ctx, ExecuteWatcher watcher) {
 		HostTools hostTool = new HostTools();
 		try {
 			ctx.setObject(cid, hostTool);
